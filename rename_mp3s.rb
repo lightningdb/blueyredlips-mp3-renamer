@@ -9,7 +9,7 @@ class Object
 end
 
 class Mp3Renamer
-  def initialize(filename)
+  def initialize(filename=nil)
     @filename = filename
   end
 
