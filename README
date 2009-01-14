@@ -1,0 +1,20 @@
+every gui i've used to rename my mp3s to match tags has been rubbish (apart from EasyTag, but i couldn't get it to run on os x).
+
+so i spent five minutes (okay, more like thirty five) creating this script, with a sane naming convention and rudimentary specs
+
+sudo port install id3lib
+sudo gem install id3lib-ruby
+
+then:
+ruby rename_mp3s.rb
+options:
+-v    will print out the files as they are renamed
+
+renames to ths convention:
+Track Number - Artist - Album - Title
+and neatens up if any of these are not available.
+
+please hack the hell out of this. (ha, i just typed 'please hack the hello out of this' -- do that too please)
+
+LICENSED under "DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE" http://sam.zoy.org/wtfpl/COPYING
+
